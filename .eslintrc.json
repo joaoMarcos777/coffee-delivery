@@ -1,0 +1,6 @@
+{
+  "extends": [
+      // npm i @rocketseat/eslint-config -D    
+      "@rocketseat/eslint-config/react"
+  ]
+}
