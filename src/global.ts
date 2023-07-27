@@ -19,5 +19,8 @@ body, input, textarea, button {
     font-weight: 400;
     font-size: 1rem;
 }
-
+:focus {
+    outline: 0;
+        box-shadow: 0 0 0 2px ${({ theme }) => theme.purple};
+}
 `
